@@ -21,3 +21,13 @@ dependencyResolutionManagement {
 
 rootProject.name = "SampleProject"
 include(":app")
+include(":core:analytic")
+include(":core:common")
+include(":core:data")
+include(":core:database")
+include(":core:datastore")
+include(":core:domain")
+include(":core:network")
+include(":core:ui")
+include(":feature:featureone")
+include(":feature:featuretwo")
