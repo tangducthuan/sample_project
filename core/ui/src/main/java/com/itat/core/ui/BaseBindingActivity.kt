@@ -29,7 +29,13 @@ abstract class BaseBindingActivity<BINDING : ViewDataBinding> : AppCompatActivit
         observe()
     }
 
+    /**
+     * Config views, set view's event. Call before view is set to Activity
+     */
     abstract fun configBinding()
 
+    /**
+     * Observe UIState, UIEvent. Call after view is set to Activity
+     */
     abstract fun observe()
 }
